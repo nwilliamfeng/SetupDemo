@@ -61,11 +61,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="source\Logs\QCTrader.log" />
-    <None Include="source\Logs\QCTrader_20200103.0.log" />
-    <None Include="source\Logs\QCTrader_20200106.0.log" />
-    <None Include="source\Logs\QCTrader_Error.log" />
-    <None Include="source\Logs\QCTrader_Error_20200103.0.log" />
+    <None Include="Language\QCTrader.zh-cn.wxl" />
+    <None Include="Language\QCTrader.en-us.wxl" />
+    <None Include="Licenses\Licence.rtf" />
     <None Include="source\NLog.config" />
     <None Include="source\QCTrader.exe.config" />
     <None Include="source\Resources\help.xps" />
@@ -77,24 +75,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
-    <Content Include="source\ca-ES\Xceed.Wpf.AvalonDock.resources.dll" />
     <Content Include="source\Caliburn.Micro.dll" />
     <Content Include="source\Caliburn.Micro.Platform.Core.dll" />
     <Content Include="source\Caliburn.Micro.Platform.Core.xml" />
     <Content Include="source\Caliburn.Micro.Platform.dll" />
     <Content Include="source\Caliburn.Micro.Platform.xml" />
     <Content Include="source\Caliburn.Micro.xml" />
-    <Content Include="source\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\de\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\es\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\fr\Xceed.Wpf.AvalonDock.resources.dll" />
     <Content Include="source\GetSystemInfo.dll" />
-    <Content Include="source\hu\Xceed.Wpf.AvalonDock.resources.dll" />
     <Content Include="source\ICSharpCode.SharpZipLib.dll" />
     <Content Include="source\ICSharpCode.SharpZipLib.xml" />
-    <Content Include="source\it\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\ja\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\ko\Xceed.Wpf.AvalonDock.resources.dll" />
     <Content Include="source\Microsoft.Expression.Interactions.dll" />
     <Content Include="source\msvcp120.dll" />
     <Content Include="source\msvcp120d.dll" />
@@ -102,15 +91,12 @@
     <Content Include="source\msvcr120d.dll" />
     <Content Include="source\Newtonsoft.Json.dll" />
     <Content Include="source\Newtonsoft.Json.xml" />
-    <Content Include="source\nl-BE\Xceed.Wpf.AvalonDock.resources.dll" />
     <Content Include="source\NLog.dll" />
     <Content Include="source\NLog.xml" />
     <Content Include="source\NPOI.dll" />
     <Content Include="source\NPOI.OOXML.dll" />
     <Content Include="source\NPOI.OpenXml4Net.dll" />
     <Content Include="source\NPOI.OpenXmlFormats.dll" />
-    <Content Include="source\pl\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" />
     <Content Include="source\Qc.Bms.Trade.GetUserSystemInfo.dll" />
     <Content Include="source\Qc.Bms.Trade.GetUserSystemInfo.pdb" />
     <Content Include="source\QCTrader.exe" />
@@ -121,9 +107,6 @@
     <Content Include="source\QiCheng.QCTrader.Controls.pdb" />
     <Content Include="source\QiCheng.QCTrader.DockThemes.dll" />
     <Content Include="source\QiCheng.QCTrader.DockThemes.pdb" />
-    <Content Include="source\ro\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\ru\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\sv\Xceed.Wpf.AvalonDock.resources.dll" />
     <Content Include="source\System.Runtime.CompilerServices.Unsafe.dll" />
     <Content Include="source\System.Runtime.CompilerServices.Unsafe.xml" />
     <Content Include="source\System.ValueTuple.dll" />
@@ -134,8 +117,8 @@
     <Content Include="source\WinDataCollect.dll" />
     <Content Include="source\Xceed.Wpf.AvalonDock.dll" />
     <Content Include="source\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" />
-    <Content Include="source\zh-Hant\Xceed.Wpf.AvalonDock.resources.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\WixSharp.bin.1.14.2\build\WixSharp.bin.targets" Condition="Exists('..\packages\WixSharp.bin.1.14.2\build\WixSharp.bin.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
