@@ -199,7 +199,7 @@
     <String Id="ProgressDlg_Title" Overridable="yes"><!-- _locID_text="ProgressDlg_Title" _locComment="ProgressDlg_Title" -->[ProductName] Setup</String>
     <String Id="ProgressDlgBannerBitmap" Overridable="yes"><!-- _locID_text="ProgressDlgBannerBitmap" _locComment="ProgressDlgBannerBitmap" -->WixUI_Bmp_Banner</String>
     <String Id="ProgressDlgTextInstalling" Overridable="yes"><!-- _locID_text="ProgressDlgTextInstalling" _locComment="ProgressDlgTextInstalling" -->Please wait while the Setup Wizard installs [ProductName].</String>
-    <String Id="ProgressDlgTitleInstalling" Overridable="yes"><!-- _locID_text="ProgressDlgTitleInstalling" _locComment="ProgressDlgTitleInstalling" -->{\WixUI_Font_Title}Installing [ProductName]</String>
+    <String Id="ProgressDlgTitleInstalling" Overridable="yes"><!-- _locID_text="ProgressDlgTitleInstalling" _locComment="ProgressDlgTitleInstalling" -->{\WixUI_Font_Title}正在安装 [ProductName]</String>
     <String Id="ProgressDlgTextChanging" Overridable="yes"><!-- _locID_text="ProgressDlgTextChanging" _locComment="ProgressDlgTextChanging" -->Please wait while the Setup Wizard changes [ProductName].</String>
     <String Id="ProgressDlgTitleChanging" Overridable="yes"><!-- _locID_text="ProgressDlgTitleChanging" _locComment="ProgressDlgTitleChanging" -->{\WixUI_Font_Title}Changing [ProductName]</String>
     <String Id="ProgressDlgTextRepairing" Overridable="yes"><!-- _locID_text="ProgressDlgTextRepairing" _locComment="ProgressDlgTextRepairing" -->Please wait while the Setup Wizard repairs [ProductName].</String>
