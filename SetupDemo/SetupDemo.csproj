@@ -71,7 +71,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\uninstall.ico" />
     <Content Include="logo.ico" />
+    <Content Include="Packages\runtime461.exe" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,290 +6,222 @@
 </auto-generated>
 -->
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
-  <Product Id="6fe30b47-2577-43ad-9095-1861ca25889c" Name="QCTrader" Language="2052" Codepage="gb2312" Version="1.0.0.0" UpgradeCode="6fe30b47-2577-43ad-9095-1861ba25889b" Manufacturer="nwill">
+  <Product Id="6fe30b47-2577-43ad-9095-1861ca25889c" Name="QCTrader" Language="2052" Codepage="gb2312" Version="1.0.0.0" UpgradeCode="6fe30b47-2577-43ad-9095-1861ba25889b" Manufacturer="wei.feng">
     <Package InstallerVersion="200" Compressed="yes" SummaryCodepage="gb2312" Languages="2052" />
     <Media Id="1" Cabinet="QCTrader.cab" EmbedCab="yes" />
 
-    <Condition Message="请先安装.net 4.6.1运行时"><![CDATA[ (NETFRAMEWORK45 >= "#394254") ]]></Condition>
+    <Condition Message="请先安装.net 4.6.1运行时"><![CDATA[ (NETFRAMEWORK45 >= "#461808") ]]></Condition>
 
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="ProgramFilesFolder" Name="ProgramFilesFolder">
-        <Directory Id="ProgramFilesFolder.QiCheng" Name="QiCheng">
+        <Directory Id="ProgramFilesFolder.____" Name="期程科技">
           <Directory Id="INSTALLDIR" Name="QCTrader">
 
-            <Component Id="Component.Caliburn.Micro.dll_2769599537" Guid="6fe30b47-2577-43ad-9095-1861e9edbab8">
-              <File Id="Caliburn.Micro.dll_2769599537" Source="source\Caliburn.Micro.dll" />
+            <Component Id="Component.readme.txt_2286334390" Guid="6fe30b47-2577-43ad-9095-1861869ddcc4">
+              <File Id="readme.txt_2286334390" Source="source\readme.txt" />
             </Component>
 
-            <Component Id="Component.Caliburn.Micro.Platform.Core.dll_1376674367" Guid="6fe30b47-2577-43ad-9095-1861ac10a565">
-              <File Id="Caliburn.Micro.Platform.Core.dll_1376674367" Source="source\Caliburn.Micro.Platform.Core.dll" />
+            <Component Id="Component.Caliburn.Micro.dll_116373377" Guid="6fe30b47-2577-43ad-9095-186112bf20fe">
+              <File Id="Caliburn.Micro.dll_116373377" Source="source\Caliburn.Micro.dll" />
             </Component>
 
-            <Component Id="Component.Caliburn.Micro.Platform.dll_238658291" Guid="6fe30b47-2577-43ad-9095-1861746aab00">
-              <File Id="Caliburn.Micro.Platform.dll_238658291" Source="source\Caliburn.Micro.Platform.dll" />
+            <Component Id="Component.Caliburn.Micro.Platform.Core.dll_3323167817" Guid="6fe30b47-2577-43ad-9095-1861e7d0fb5c">
+              <File Id="Caliburn.Micro.Platform.Core.dll_3323167817" Source="source\Caliburn.Micro.Platform.Core.dll" />
             </Component>
 
-            <Component Id="Component.GetSystemInfo.dll_762065359" Guid="6fe30b47-2577-43ad-9095-1861cced0e75">
-              <File Id="GetSystemInfo.dll_762065359" Source="source\GetSystemInfo.dll" />
+            <Component Id="Component.Caliburn.Micro.Platform.dll_1527944514" Guid="6fe30b47-2577-43ad-9095-186123ff431e">
+              <File Id="Caliburn.Micro.Platform.dll_1527944514" Source="source\Caliburn.Micro.Platform.dll" />
             </Component>
 
-            <Component Id="Component.ICSharpCode.SharpZipLib.dll_1909056347" Guid="6fe30b47-2577-43ad-9095-186160239d2e">
-              <File Id="ICSharpCode.SharpZipLib.dll_1909056347" Source="source\ICSharpCode.SharpZipLib.dll" />
+            <Component Id="Component.GetSystemInfo.dll_4272878899" Guid="6fe30b47-2577-43ad-9095-18611c28c7ec">
+              <File Id="GetSystemInfo.dll_4272878899" Source="source\GetSystemInfo.dll" />
             </Component>
 
-            <Component Id="Component.Microsoft.Expression.Interactions.dll_3229361913" Guid="6fe30b47-2577-43ad-9095-18616969fb74">
-              <File Id="Microsoft.Expression.Interactions.dll_3229361913" Source="source\Microsoft.Expression.Interactions.dll" />
+            <Component Id="Component.ICSharpCode.SharpZipLib.dll_3914407868" Guid="6fe30b47-2577-43ad-9095-1861f9ff2186">
+              <File Id="ICSharpCode.SharpZipLib.dll_3914407868" Source="source\ICSharpCode.SharpZipLib.dll" />
             </Component>
 
-            <Component Id="Component.msvcp120.dll_4109575025" Guid="6fe30b47-2577-43ad-9095-18618311894f">
-              <File Id="msvcp120.dll_4109575025" Source="source\msvcp120.dll" />
+            <Component Id="Component.Microsoft.Expression.Interactions.dll_760068251" Guid="6fe30b47-2577-43ad-9095-1861ff92ce4c">
+              <File Id="Microsoft.Expression.Interactions.dll_760068251" Source="source\Microsoft.Expression.Interactions.dll" />
             </Component>
 
-            <Component Id="Component.msvcp120d.dll_2954437559" Guid="6fe30b47-2577-43ad-9095-1861c790867e">
-              <File Id="msvcp120d.dll_2954437559" Source="source\msvcp120d.dll" />
+            <Component Id="Component.msvcp120.dll_2646116618" Guid="6fe30b47-2577-43ad-9095-1861051bba52">
+              <File Id="msvcp120.dll_2646116618" Source="source\msvcp120.dll" />
             </Component>
 
-            <Component Id="Component.msvcr120.dll_3820823409" Guid="6fe30b47-2577-43ad-9095-18613c7ce256">
-              <File Id="msvcr120.dll_3820823409" Source="source\msvcr120.dll" />
+            <Component Id="Component.msvcp120d.dll_2056804719" Guid="6fe30b47-2577-43ad-9095-1861f185134e">
+              <File Id="msvcp120d.dll_2056804719" Source="source\msvcp120d.dll" />
             </Component>
 
-            <Component Id="Component.msvcr120d.dll_3243189175" Guid="6fe30b47-2577-43ad-9095-1861869cfe4a">
-              <File Id="msvcr120d.dll_3243189175" Source="source\msvcr120d.dll" />
+            <Component Id="Component.msvcr120.dll_3829119008" Guid="6fe30b47-2577-43ad-9095-186131ec82a3">
+              <File Id="msvcr120.dll_3829119008" Source="source\msvcr120.dll" />
             </Component>
 
-            <Component Id="Component.Newtonsoft.Json.dll_394694437" Guid="6fe30b47-2577-43ad-9095-1861dfe1df0c">
-              <File Id="Newtonsoft.Json.dll_394694437" Source="source\Newtonsoft.Json.dll" />
+            <Component Id="Component.msvcr120d.dll_1222609481" Guid="6fe30b47-2577-43ad-9095-18610ae50e84">
+              <File Id="msvcr120d.dll_1222609481" Source="source\msvcr120d.dll" />
             </Component>
 
-            <Component Id="Component.NLog.dll_1282077266" Guid="6fe30b47-2577-43ad-9095-1861a4f3aed5">
-              <File Id="NLog.dll_1282077266" Source="source\NLog.dll" />
+            <Component Id="Component.Newtonsoft.Json.dll_143757709" Guid="6fe30b47-2577-43ad-9095-18619db27546">
+              <File Id="Newtonsoft.Json.dll_143757709" Source="source\Newtonsoft.Json.dll" />
             </Component>
 
-            <Component Id="Component.NPOI.dll_3506200448" Guid="6fe30b47-2577-43ad-9095-18614e572741">
-              <File Id="NPOI.dll_3506200448" Source="source\NPOI.dll" />
+            <Component Id="Component.NLog.dll_2358673089" Guid="6fe30b47-2577-43ad-9095-1861c30aa10b">
+              <File Id="NLog.dll_2358673089" Source="source\NLog.dll" />
             </Component>
 
-            <Component Id="Component.NPOI.OOXML.dll_1339084596" Guid="6fe30b47-2577-43ad-9095-186181712f39">
-              <File Id="NPOI.OOXML.dll_1339084596" Source="source\NPOI.OOXML.dll" />
+            <Component Id="Component.NPOI.dll_1698988961" Guid="6fe30b47-2577-43ad-9095-1861e9fbc6d4">
+              <File Id="NPOI.dll_1698988961" Source="source\NPOI.dll" />
             </Component>
 
-            <Component Id="Component.NPOI.OpenXml4Net.dll_75722122" Guid="6fe30b47-2577-43ad-9095-18617497d20f">
-              <File Id="NPOI.OpenXml4Net.dll_75722122" Source="source\NPOI.OpenXml4Net.dll" />
+            <Component Id="Component.NPOI.OOXML.dll_3789520319" Guid="6fe30b47-2577-43ad-9095-18613e78bb1c">
+              <File Id="NPOI.OOXML.dll_3789520319" Source="source\NPOI.OOXML.dll" />
             </Component>
 
-            <Component Id="Component.NPOI.OpenXmlFormats.dll_1685044158" Guid="6fe30b47-2577-43ad-9095-1861a527932b">
-              <File Id="NPOI.OpenXmlFormats.dll_1685044158" Source="source\NPOI.OpenXmlFormats.dll" />
+            <Component Id="Component.NPOI.OpenXml4Net.dll_1368995007" Guid="6fe30b47-2577-43ad-9095-186195207b17">
+              <File Id="NPOI.OpenXml4Net.dll_1368995007" Source="source\NPOI.OpenXml4Net.dll" />
             </Component>
 
-            <Component Id="Component.Qc.Bms.Trade.GetUserSystemInfo.dll_646833562" Guid="6fe30b47-2577-43ad-9095-186169322f6a">
-              <File Id="Qc.Bms.Trade.GetUserSystemInfo.dll_646833562" Source="source\Qc.Bms.Trade.GetUserSystemInfo.dll" />
+            <Component Id="Component.NPOI.OpenXmlFormats.dll_1593616929" Guid="6fe30b47-2577-43ad-9095-1861b93b7343">
+              <File Id="NPOI.OpenXmlFormats.dll_1593616929" Source="source\NPOI.OpenXmlFormats.dll" />
             </Component>
 
-            <Component Id="Component.QiCheng.Framework.dll_1148162996" Guid="6fe30b47-2577-43ad-9095-1861d64b8353">
-              <File Id="QiCheng.Framework.dll_1148162996" Source="source\QiCheng.Framework.dll" />
+            <Component Id="Component.Qc.Bms.Trade.GetUserSystemInfo.dll_3595477557" Guid="6fe30b47-2577-43ad-9095-186115be5e9e">
+              <File Id="Qc.Bms.Trade.GetUserSystemInfo.dll_3595477557" Source="source\Qc.Bms.Trade.GetUserSystemInfo.dll" />
             </Component>
 
-            <Component Id="Component.QiCheng.QCTrader.Controls.dll_2140107732" Guid="6fe30b47-2577-43ad-9095-1861a91da016">
-              <File Id="QiCheng.QCTrader.Controls.dll_2140107732" Source="source\QiCheng.QCTrader.Controls.dll" />
+            <Component Id="Component.QiCheng.Framework.dll_1465363262" Guid="6fe30b47-2577-43ad-9095-186112f7f1df">
+              <File Id="QiCheng.Framework.dll_1465363262" Source="source\QiCheng.Framework.dll" />
             </Component>
 
-            <Component Id="Component.QiCheng.QCTrader.DockThemes.dll_3771067661" Guid="6fe30b47-2577-43ad-9095-186109551904">
-              <File Id="QiCheng.QCTrader.DockThemes.dll_3771067661" Source="source\QiCheng.QCTrader.DockThemes.dll" />
+            <Component Id="Component.QiCheng.QCTrader.Controls.dll_1266475218" Guid="6fe30b47-2577-43ad-9095-1861046dca6e">
+              <File Id="QiCheng.QCTrader.Controls.dll_1266475218" Source="source\QiCheng.QCTrader.Controls.dll" />
             </Component>
 
-            <Component Id="Component.System.Runtime.CompilerServices.Unsafe.dll_2633271671" Guid="6fe30b47-2577-43ad-9095-186115e10851">
-              <File Id="System.Runtime.CompilerServices.Unsafe.dll_2633271671" Source="source\System.Runtime.CompilerServices.Unsafe.dll" />
+            <Component Id="Component.QiCheng.QCTrader.DockThemes.dll_4072975727" Guid="6fe30b47-2577-43ad-9095-1861423bcb2d">
+              <File Id="QiCheng.QCTrader.DockThemes.dll_4072975727" Source="source\QiCheng.QCTrader.DockThemes.dll" />
             </Component>
 
-            <Component Id="Component.System.ValueTuple.dll_3177183577" Guid="6fe30b47-2577-43ad-9095-1861179ab0eb">
-              <File Id="System.ValueTuple.dll_3177183577" Source="source\System.ValueTuple.dll" />
+            <Component Id="Component.System.Runtime.CompilerServices.Unsafe.dll_433597943" Guid="6fe30b47-2577-43ad-9095-186138b00a39">
+              <File Id="System.Runtime.CompilerServices.Unsafe.dll_433597943" Source="source\System.Runtime.CompilerServices.Unsafe.dll" />
             </Component>
 
-            <Component Id="Component.System.Windows.Interactivity.dll_2800959487" Guid="6fe30b47-2577-43ad-9095-18614d18ab70">
-              <File Id="System.Windows.Interactivity.dll_2800959487" Source="source\System.Windows.Interactivity.dll" />
+            <Component Id="Component.System.ValueTuple.dll_2492393612" Guid="6fe30b47-2577-43ad-9095-186117a592b0">
+              <File Id="System.ValueTuple.dll_2492393612" Source="source\System.ValueTuple.dll" />
             </Component>
 
-            <Component Id="Component.vccorlib120.dll_1035247931" Guid="6fe30b47-2577-43ad-9095-1861efaa199c">
-              <File Id="vccorlib120.dll_1035247931" Source="source\vccorlib120.dll" />
+            <Component Id="Component.System.Windows.Interactivity.dll_2794572341" Guid="6fe30b47-2577-43ad-9095-18616ea7c06d">
+              <File Id="System.Windows.Interactivity.dll_2794572341" Source="source\System.Windows.Interactivity.dll" />
             </Component>
 
-            <Component Id="Component.vccorlib120d.dll_224937223" Guid="6fe30b47-2577-43ad-9095-18612a2d310c">
-              <File Id="vccorlib120d.dll_224937223" Source="source\vccorlib120d.dll" />
+            <Component Id="Component.vccorlib120.dll_3619668861" Guid="6fe30b47-2577-43ad-9095-186149827fba">
+              <File Id="vccorlib120.dll_3619668861" Source="source\vccorlib120.dll" />
             </Component>
 
-            <Component Id="Component.WinDataCollect.dll_863007315" Guid="6fe30b47-2577-43ad-9095-1861354533f1">
-              <File Id="WinDataCollect.dll_863007315" Source="source\WinDataCollect.dll" />
+            <Component Id="Component.vccorlib120d.dll_4002129375" Guid="6fe30b47-2577-43ad-9095-1861f80b2377">
+              <File Id="vccorlib120d.dll_4002129375" Source="source\vccorlib120d.dll" />
             </Component>
 
-            <Component Id="Component.Xceed.Wpf.AvalonDock.dll_3899708542" Guid="6fe30b47-2577-43ad-9095-1861a5b102f5">
-              <File Id="Xceed.Wpf.AvalonDock.dll_3899708542" Source="source\Xceed.Wpf.AvalonDock.dll" />
+            <Component Id="Component.WinDataCollect.dll_917285508" Guid="6fe30b47-2577-43ad-9095-18614e6252f9">
+              <File Id="WinDataCollect.dll_917285508" Source="source\WinDataCollect.dll" />
             </Component>
 
-            <Component Id="Component.QCTrader.exe_2616550275" Guid="6fe30b47-2577-43ad-9095-1861636dd88e">
-              <File Id="QCTrader.exe_2616550275" Source="source\QCTrader.exe" />
+            <Component Id="Component.Xceed.Wpf.AvalonDock.dll_167590765" Guid="6fe30b47-2577-43ad-9095-1861d210fabd">
+              <File Id="Xceed.Wpf.AvalonDock.dll_167590765" Source="source\Xceed.Wpf.AvalonDock.dll" />
+            </Component>
+
+            <Component Id="Component.QCTrader.exe_1818879870" Guid="6fe30b47-2577-43ad-9095-1861841976c7">
+              <File Id="QCTrader.exe_1818879870" Source="source\QCTrader.exe" />
+            </Component>
+
+            <Component Id="Component.NLog.config_2736763110" Guid="6fe30b47-2577-43ad-9095-1861b83c4979">
+              <File Id="NLog.config_2736763110" Source="source\NLog.config" />
+            </Component>
+
+            <Component Id="Component.QCTrader.exe.config_3197091082" Guid="6fe30b47-2577-43ad-9095-18618c07e7b5">
+              <File Id="QCTrader.exe.config_3197091082" Source="source\QCTrader.exe.config" />
             </Component>
 
             <Directory Id="INSTALLDIR.Resources" Name="Resources">
 
-              <Component Id="Component.dockmanager_config.xml_4160439467" Guid="6fe30b47-2577-43ad-9095-1861e3217b65">
-                <File Id="dockmanager_config.xml_4160439467" Source="source\resources\dockmanager-config.xml" />
-              </Component>
-
-              <Component Id="Component.help.xps_498598925" Guid="6fe30b47-2577-43ad-9095-18616581ff1e">
-                <File Id="help.xps_498598925" Source="source\resources\help.xps" />
+              <Component Id="Component.help.xps_2484077765" Guid="6fe30b47-2577-43ad-9095-18618f7b8135">
+                <File Id="help.xps_2484077765" Source="source\resources\help.xps" />
               </Component>
 
             </Directory>
 
-            <Directory Id="INSTALLDIR.ca_ES" Name="ca-ES">
+            <Directory Id="DesktopFolder" Name="DesktopFolder">
 
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3760606494" Guid="6fe30b47-2577-43ad-9095-18611771080a">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_3760606494" Source="source\ca-ES\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
+              <Component Id="Component.QCTrader__" Guid="6fe30b47-2577-43ad-9095-18610069b986">
+                <Shortcut Id="DesktopFolder.QCTrader__" WorkingDirectory="INSTALLDIR" Target="[INSTALLDIR]QCTrader.exe" Name="QCTrader.lnk" />
 
-            </Directory>
-
-            <Directory Id="INSTALLDIR.cs_CZ" Name="cs-CZ">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3145655604" Guid="6fe30b47-2577-43ad-9095-1861d916372a">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_3145655604" Source="source\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.de" Name="de">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2012568836" Guid="6fe30b47-2577-43ad-9095-1861769a29fd">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_2012568836" Source="source\de\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.es" Name="es">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2476185175" Guid="6fe30b47-2577-43ad-9095-1861fc5de507">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_2476185175" Source="source\es\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.fr" Name="fr">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_163369816" Guid="6fe30b47-2577-43ad-9095-186185cb172c">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_163369816" Source="source\fr\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.hu" Name="hu">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1575794893" Guid="6fe30b47-2577-43ad-9095-1861ee623ff5">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_1575794893" Source="source\hu\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.it" Name="it">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3901670478" Guid="6fe30b47-2577-43ad-9095-1861eeda13f6">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_3901670478" Source="source\it\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.ja" Name="ja">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3386602640" Guid="6fe30b47-2577-43ad-9095-18618190e3ee">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_3386602640" Source="source\ja\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.ko" Name="ko">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3634513165" Guid="6fe30b47-2577-43ad-9095-1861dc12ca44">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_3634513165" Source="source\ko\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.Logs" Name="Logs">
-
-              <Component Id="Component.INSTALLDIR.Logs.EmptyDirectory" Guid="6fe30b47-2577-43ad-9095-1861c74354f8" KeyPath="yes">
                 <CreateFolder />
-                <RemoveFolder Id="INSTALLDIR.Logs" On="uninstall" />
+
+                <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                  <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                </RegistryKey>
               </Component>
 
             </Directory>
 
-            <Directory Id="INSTALLDIR.nl_BE" Name="nl-BE">
+            <Directory Id="ProgramMenuFolder" Name="ProgramMenuFolder">
+              <Directory Id="ProgramMenuFolder.____" Name="期程科技">
+                <Directory Id="ProgramMenuFolder.____.____" Name="期货交易">
 
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2994685153" Guid="6fe30b47-2577-43ad-9095-18614c435fbe">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_2994685153" Source="source\nl-BE\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
+                  <Component Id="Component._______" Guid="6fe30b47-2577-43ad-9095-1861513aa66c">
+                    <Shortcut Id="ProgramMenuFolder.____.____._______" WorkingDirectory="INSTALLDIR" Target="[INSTALLDIR]QCTrader.exe" Name="期货交易客户端.lnk" />
 
-            </Directory>
+                    <CreateFolder />
+                    <RemoveFolder Id="ProgramMenuFolder.____.____" On="uninstall" />
 
-            <Directory Id="INSTALLDIR.pl" Name="pl">
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
 
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_8199884" Guid="6fe30b47-2577-43ad-9095-1861a0af25b5">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_8199884" Source="source\pl\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
+                  <Component Id="Component.____" Guid="6fe30b47-2577-43ad-9095-186173130098">
+                    <Shortcut Id="ProgramMenuFolder.____.____.____" WorkingDirectory="INSTALLDIR" Target="[INSTALLDIR]readme.txt" Name="使用须知.lnk" />
 
-            </Directory>
+                    <CreateFolder />
 
-            <Directory Id="INSTALLDIR.pt_BR" Name="pt-BR">
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
 
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3605029439" Guid="6fe30b47-2577-43ad-9095-1861813f783d">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_3605029439" Source="source\pt-BR\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
+                  <Component Id="Component.__" Guid="6fe30b47-2577-43ad-9095-1861d58dee2d">
+                    <Shortcut Id="ProgramMenuFolder.____.____.__" WorkingDirectory="System64Folder" Target="[System64Folder]msiexec.exe" Arguments="/x [ProductCode]" Name="卸载.lnk" Icon="IconFile1_uninstall.ico" IconIndex="0" />
 
-            </Directory>
+                    <CreateFolder />
 
-            <Directory Id="INSTALLDIR.ro" Name="ro">
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
 
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1199642747" Guid="6fe30b47-2577-43ad-9095-18613505bc19">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_1199642747" Source="source\ro\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
+                </Directory>
 
-            </Directory>
+                <Component Id="ProgramMenuFolder.____" Guid="6fe30b47-2577-43ad-9095-1861a96f51f2">
+                  <RemoveFolder Id="ProgramMenuFolder.____" On="uninstall" />
 
-            <Directory Id="INSTALLDIR.ru" Name="ru">
+                  <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                    <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                  </RegistryKey>
+                </Component>
 
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2736223919" Guid="6fe30b47-2577-43ad-9095-1861b8bbb1d6">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_2736223919" Source="source\ru\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.sv" Name="sv">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3279730452" Guid="6fe30b47-2577-43ad-9095-1861abc4ee33">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_3279730452" Source="source\sv\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
+              </Directory>
             </Directory>
 
             <Directory Id="INSTALLDIR.zh_Hans" Name="zh-Hans">
 
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_129893763" Guid="6fe30b47-2577-43ad-9095-186106053dc2">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_129893763" Source="source\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" />
-              </Component>
-
-            </Directory>
-
-            <Directory Id="INSTALLDIR.zh_Hant" Name="zh-Hant">
-
-              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1669454314" Guid="6fe30b47-2577-43ad-9095-1861ecdfc5fa">
-                <File Id="Xceed.Wpf.AvalonDock.resources.dll_1669454314" Source="source\zh-Hant\Xceed.Wpf.AvalonDock.resources.dll" />
+              <Component Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1248130991" Guid="6fe30b47-2577-43ad-9095-1861d1b191be">
+                <File Id="Xceed.Wpf.AvalonDock.resources.dll_1248130991" Source="source\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll" />
               </Component>
 
             </Directory>
           </Directory>
 
-          <Component Id="ProgramFilesFolder.QiCheng" Guid="6fe30b47-2577-43ad-9095-18616196cff5" KeyPath="yes">
-            <CreateFolder />
-            <RemoveFolder Id="ProgramFilesFolder.QiCheng" On="uninstall" />
+          <Component Id="ProgramFilesFolder.____" Guid="6fe30b47-2577-43ad-9095-1861da7acce0" KeyPath="yes">
+            <RemoveFolder Id="ProgramFilesFolder.____" On="uninstall" />
           </Component>
 
         </Directory>
@@ -308,6 +240,9 @@
 
     <WixVariable Id="WixUILicenseRtf" Value="licenses\licence.rtf" />
 
+    <Icon Id="IconFile1_uninstall.ico" SourceFile="images\uninstall.ico" />
+
+    <CustomAction Id="ReadmeAfterInstalled" BinaryKey="ReadmeAfterInstalled_File" DllEntry="ReadmeAfterInstalled" Return="ignore" Execute="immediate" />
     <CustomAction Id="WixSharp_InitRuntime_Action" BinaryKey="WixSharp_InitRuntime_Action_File" DllEntry="WixSharp_InitRuntime_Action" Return="check" Execute="immediate" />
     <CustomAction Id="Set_CancelRequestHandler_Props" Property="CancelRequestHandler" Value="UpgradeCode=[UpgradeCode];INSTALLDIR=[INSTALLDIR];UILevel=[UILevel];ProductCode=[ProductCode];ADDLOCAL=[ADDLOCAL];ADDFEATURES=[ADDFEATURES]" />
     <CustomAction Id="CancelRequestHandler" BinaryKey="WixSharp_InitRuntime_Action_File" DllEntry="CancelRequestHandler" Return="check" Impersonate="no" Execute="deferred" />
@@ -316,6 +251,7 @@
     <CustomAction Id="Set_WixSharp_AfterInstall_Action_Props" Property="WixSharp_AfterInstall_Action" Value="WixSharp_AfterInstall_Handlers=[WixSharp_AfterInstall_Handlers];WIXSHARP_RUNTIME_DATA=[WIXSHARP_RUNTIME_DATA];INSTALLDIR=[INSTALLDIR];UILevel=[UILevel];ProductName=[ProductName];INSTALLDIR=[INSTALLDIR];UILevel=[UILevel];ProductCode=[ProductCode];ADDLOCAL=[ADDLOCAL];ADDFEATURES=[ADDFEATURES]" />
     <CustomAction Id="WixSharp_AfterInstall_Action" BinaryKey="WixSharp_InitRuntime_Action_File" DllEntry="WixSharp_AfterInstall_Action" Return="check" Impersonate="no" Execute="deferred" />
 
+    <Binary Id="ReadmeAfterInstalled_File" SourceFile="%this%.CA.dll" />
     <Binary Id="WixSharp_InitRuntime_Action_File" SourceFile="WixSharp.CA.dll" />
     <Binary Id="WixSharp_UIText" SourceFile="language\qctrader.zh-cn.wxl" />
     <Binary Id="WixSharp_LicenceFile" SourceFile="licenses\licence.rtf" />
@@ -325,8 +261,6 @@
     <UIRef Id="WixUI_ErrorProgressText" />
 
     <Property Id="WixSharp_UI_INSTALLDIR" Value="INSTALLDIR" />
-    <Property Id="UAC_REVEALER_ENABLED" Value="true" />
-    <Property Id="UAC_WARNING" Value="Please wait for UAC prompt to appear.&#xD;&#xA;&#xD;&#xA;If it appears minimized then activate it from the taskbar." />
     <Property Id="WixSharp_InstallDialogs" Value="WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.WelcomeDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.LicenceDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.InstallDirDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ProgressDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ExitDialog" />
     <Property Id="WixSharp_ModifyDialogs" Value="WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.MaintenanceTypeDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ProgressDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ExitDialog" />
     <Property Id="WixSharp_Load_Handlers" Value="WixSharpSetup, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|SetupDemo.Program|Msi_Load" />
@@ -336,58 +270,49 @@
     <Property Id="ARPPRODUCTICON" Value="app_icon.ico" />
 
     <Feature Id="Complete" Title="Complete" Absent="allow" Level="1">
-      <ComponentRef Id="Component.Caliburn.Micro.dll_2769599537" />
-      <ComponentRef Id="Component.Caliburn.Micro.Platform.Core.dll_1376674367" />
-      <ComponentRef Id="Component.Caliburn.Micro.Platform.dll_238658291" />
-      <ComponentRef Id="Component.GetSystemInfo.dll_762065359" />
-      <ComponentRef Id="Component.ICSharpCode.SharpZipLib.dll_1909056347" />
-      <ComponentRef Id="Component.Microsoft.Expression.Interactions.dll_3229361913" />
-      <ComponentRef Id="Component.msvcp120.dll_4109575025" />
-      <ComponentRef Id="Component.msvcp120d.dll_2954437559" />
-      <ComponentRef Id="Component.msvcr120.dll_3820823409" />
-      <ComponentRef Id="Component.msvcr120d.dll_3243189175" />
-      <ComponentRef Id="Component.Newtonsoft.Json.dll_394694437" />
-      <ComponentRef Id="Component.NLog.dll_1282077266" />
-      <ComponentRef Id="Component.NPOI.dll_3506200448" />
-      <ComponentRef Id="Component.NPOI.OOXML.dll_1339084596" />
-      <ComponentRef Id="Component.NPOI.OpenXml4Net.dll_75722122" />
-      <ComponentRef Id="Component.NPOI.OpenXmlFormats.dll_1685044158" />
-      <ComponentRef Id="Component.Qc.Bms.Trade.GetUserSystemInfo.dll_646833562" />
-      <ComponentRef Id="Component.QiCheng.Framework.dll_1148162996" />
-      <ComponentRef Id="Component.QiCheng.QCTrader.Controls.dll_2140107732" />
-      <ComponentRef Id="Component.QiCheng.QCTrader.DockThemes.dll_3771067661" />
-      <ComponentRef Id="Component.System.Runtime.CompilerServices.Unsafe.dll_2633271671" />
-      <ComponentRef Id="Component.System.ValueTuple.dll_3177183577" />
-      <ComponentRef Id="Component.System.Windows.Interactivity.dll_2800959487" />
-      <ComponentRef Id="Component.vccorlib120.dll_1035247931" />
-      <ComponentRef Id="Component.vccorlib120d.dll_224937223" />
-      <ComponentRef Id="Component.WinDataCollect.dll_863007315" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.dll_3899708542" />
-      <ComponentRef Id="Component.QCTrader.exe_2616550275" />
-      <ComponentRef Id="Component.dockmanager_config.xml_4160439467" />
-      <ComponentRef Id="Component.help.xps_498598925" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3760606494" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3145655604" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2012568836" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2476185175" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_163369816" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1575794893" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3901670478" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3386602640" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3634513165" />
-      <ComponentRef Id="Component.INSTALLDIR.Logs.EmptyDirectory" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2994685153" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_8199884" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3605029439" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1199642747" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_2736223919" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_3279730452" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_129893763" />
-      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1669454314" />
-      <ComponentRef Id="ProgramFilesFolder.QiCheng" />
+      <ComponentRef Id="Component.readme.txt_2286334390" />
+      <ComponentRef Id="Component.Caliburn.Micro.dll_116373377" />
+      <ComponentRef Id="Component.Caliburn.Micro.Platform.Core.dll_3323167817" />
+      <ComponentRef Id="Component.Caliburn.Micro.Platform.dll_1527944514" />
+      <ComponentRef Id="Component.GetSystemInfo.dll_4272878899" />
+      <ComponentRef Id="Component.ICSharpCode.SharpZipLib.dll_3914407868" />
+      <ComponentRef Id="Component.Microsoft.Expression.Interactions.dll_760068251" />
+      <ComponentRef Id="Component.msvcp120.dll_2646116618" />
+      <ComponentRef Id="Component.msvcp120d.dll_2056804719" />
+      <ComponentRef Id="Component.msvcr120.dll_3829119008" />
+      <ComponentRef Id="Component.msvcr120d.dll_1222609481" />
+      <ComponentRef Id="Component.Newtonsoft.Json.dll_143757709" />
+      <ComponentRef Id="Component.NLog.dll_2358673089" />
+      <ComponentRef Id="Component.NPOI.dll_1698988961" />
+      <ComponentRef Id="Component.NPOI.OOXML.dll_3789520319" />
+      <ComponentRef Id="Component.NPOI.OpenXml4Net.dll_1368995007" />
+      <ComponentRef Id="Component.NPOI.OpenXmlFormats.dll_1593616929" />
+      <ComponentRef Id="Component.Qc.Bms.Trade.GetUserSystemInfo.dll_3595477557" />
+      <ComponentRef Id="Component.QiCheng.Framework.dll_1465363262" />
+      <ComponentRef Id="Component.QiCheng.QCTrader.Controls.dll_1266475218" />
+      <ComponentRef Id="Component.QiCheng.QCTrader.DockThemes.dll_4072975727" />
+      <ComponentRef Id="Component.System.Runtime.CompilerServices.Unsafe.dll_433597943" />
+      <ComponentRef Id="Component.System.ValueTuple.dll_2492393612" />
+      <ComponentRef Id="Component.System.Windows.Interactivity.dll_2794572341" />
+      <ComponentRef Id="Component.vccorlib120.dll_3619668861" />
+      <ComponentRef Id="Component.vccorlib120d.dll_4002129375" />
+      <ComponentRef Id="Component.WinDataCollect.dll_917285508" />
+      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.dll_167590765" />
+      <ComponentRef Id="Component.QCTrader.exe_1818879870" />
+      <ComponentRef Id="Component.NLog.config_2736763110" />
+      <ComponentRef Id="Component.QCTrader.exe.config_3197091082" />
+      <ComponentRef Id="Component.help.xps_2484077765" />
+      <ComponentRef Id="Component.QCTrader__" />
+      <ComponentRef Id="Component._______" />
+      <ComponentRef Id="Component.____" />
+      <ComponentRef Id="Component.__" />
+      <ComponentRef Id="Component.Xceed.Wpf.AvalonDock.resources.dll_1248130991" />
+      <ComponentRef Id="ProgramFilesFolder.____" />
+      <ComponentRef Id="ProgramMenuFolder.____" />
     </Feature>
 
     <InstallExecuteSequence>
+      <Custom Action="ReadmeAfterInstalled" After="InstallFinalize"> (NOT Installed) </Custom>
       <Custom Action="WixSharp_InitRuntime_Action" Before="AppSearch"> (1) </Custom>
       <Custom Action="Set_CancelRequestHandler_Props" Before="InstallFinalize" />
       <Custom Action="CancelRequestHandler" After="Set_CancelRequestHandler_Props"> (NOT (REMOVE="ALL")) </Custom>

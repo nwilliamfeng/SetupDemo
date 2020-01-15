@@ -183,7 +183,7 @@
     <String Id="OutOfDiskDlgTitle" Overridable="yes"><!-- _locID_text="OutOfDiskDlgTitle" _locComment="OutOfDiskDlgTitle" -->{\WixUI_Font_Title}Out of Disk Space</String>
     <String Id="OutOfDiskDlgVolumeList" Overridable="yes"><!-- _locID_text="OutOfDiskDlgVolumeList" _locComment="OutOfDiskDlgVolumeList" -->{120}{70}{70}{70}{70}</String>
 
-    <String Id="OutOfRbDiskDlg_Title" Overridable="yes"><!-- _locID_text="OutOfRbDiskDlg_Title" _locComment="OutOfRbDiskDlg_Title" -->[ProductName] Setup</String>
+    <String Id="OutOfRbDiskDlg_Title" Overridable="yes"><!-- _locID_text="OutOfRbDiskDlg_Title" _locComment="OutOfRbDiskDlg_Title" -->[ProductName] 安装</String>
     <String Id="OutOfRbDiskDlgBannerBitmap" Overridable="yes"><!-- _locID_text="OutOfRbDiskDlgBannerBitmap" _locComment="OutOfRbDiskDlgBannerBitmap" -->WixUI_Bmp_Banner</String>
     <String Id="OutOfRbDiskDlgText" Overridable="yes"><!-- _locID_text="OutOfRbDiskDlgText" _locComment="OutOfRbDiskDlgText" -->The highlighted volumes do not have enough disk space available for the currently selected features. You can remove some files from the highlighted volumes, install fewer features, or select a different destination drive.</String>
     <String Id="OutOfRbDiskDlgDescription" Overridable="yes"><!-- _locID_text="OutOfRbDiskDlgDescription" _locComment="OutOfRbDiskDlgDescription" -->Disk space required for the installation exceeds available disk space.</String>
@@ -191,14 +191,14 @@
     <String Id="OutOfRbDiskDlgVolumeList" Overridable="yes"><!-- _locID_text="OutOfRbDiskDlgVolumeList" _locComment="OutOfRbDiskDlgVolumeList" -->{120}{70}{70}{70}{70}</String>
     <String Id="OutOfRbDiskDlgText2" Overridable="yes"><!-- _locID_text="OutOfRbDiskDlgText2" _locComment="OutOfRbDiskDlgText2" -->Alternatively, you may choose to disable the installer's rollback functionality. Disabling rollback prevents the installer from restoring your computer's original state should the installation be interrupted in any way. Click Yes if you wish to take the risk of disabling rollback.</String>
 
-    <String Id="PrepareDlg_Title" Overridable="yes"><!-- _locID_text="PrepareDlg_Title" _locComment="PrepareDlg_Title" -->[ProductName] Setup</String>
+    <String Id="PrepareDlg_Title" Overridable="yes"><!-- _locID_text="PrepareDlg_Title" _locComment="PrepareDlg_Title" -->[ProductName] 安装</String>
     <String Id="PrepareDlgBitmap" Overridable="yes"><!-- _locID_text="PrepareDlgBitmap" _locComment="PrepareDlgBitmap" -->WixUI_Bmp_Dialog</String>
     <String Id="PrepareDlgDescription" Overridable="yes"><!-- _locID_text="PrepareDlgDescription" _locComment="PrepareDlgDescription" -->Please wait while the Setup Wizard prepares to guide you through the installation.</String>
     <String Id="PrepareDlgTitle" Overridable="yes"><!-- _locID_text="PrepareDlgTitle" _locComment="PrepareDlgTitle" -->{\WixUI_Font_Bigger}Welcome to the [ProductName] Setup Wizard</String>
 
     <String Id="ProgressDlg_Title" Overridable="yes"><!-- _locID_text="ProgressDlg_Title" _locComment="ProgressDlg_Title" -->[ProductName] Setup</String>
     <String Id="ProgressDlgBannerBitmap" Overridable="yes"><!-- _locID_text="ProgressDlgBannerBitmap" _locComment="ProgressDlgBannerBitmap" -->WixUI_Bmp_Banner</String>
-    <String Id="ProgressDlgTextInstalling" Overridable="yes"><!-- _locID_text="ProgressDlgTextInstalling" _locComment="ProgressDlgTextInstalling" -->Please wait while the Setup Wizard installs [ProductName].</String>
+    <String Id="ProgressDlgTextInstalling" Overridable="yes"><!-- _locID_text="ProgressDlgTextInstalling" _locComment="ProgressDlgTextInstalling" -->安装向导正在安装[ProductName]，请稍候...</String>
     <String Id="ProgressDlgTitleInstalling" Overridable="yes"><!-- _locID_text="ProgressDlgTitleInstalling" _locComment="ProgressDlgTitleInstalling" -->{\WixUI_Font_Title}正在安装 [ProductName]</String>
     <String Id="ProgressDlgTextChanging" Overridable="yes"><!-- _locID_text="ProgressDlgTextChanging" _locComment="ProgressDlgTextChanging" -->Please wait while the Setup Wizard changes [ProductName].</String>
     <String Id="ProgressDlgTitleChanging" Overridable="yes"><!-- _locID_text="ProgressDlgTitleChanging" _locComment="ProgressDlgTitleChanging" -->{\WixUI_Font_Title}Changing [ProductName]</String>
@@ -211,7 +211,7 @@
     <String Id="ProgressDlgProgressBar" Overridable="yes"><!-- _locID_text="ProgressDlgProgressBar" _locComment="ProgressDlgProgressBar" -->Progress done</String>
     <String Id="ProgressDlgStatusLabel" Overridable="yes"><!-- _locID_text="ProgressDlgStatusLabel" _locComment="ProgressDlgStatusLabel" -->Status:</String>
 
-    <String Id="ResumeDlg_Title" Overridable="yes"><!-- _locID_text="ResumeDlg_Title" _locComment="ResumeDlg_Title" -->[ProductName] Setup</String>
+    <String Id="ResumeDlg_Title" Overridable="yes"><!-- _locID_text="ResumeDlg_Title" _locComment="ResumeDlg_Title" -->[ProductName] 安装</String>
     <String Id="ResumeDlgInstall" Overridable="yes"><!-- _locID_text="ResumeDlgInstall" _locComment="ResumeDlgInstall" -->&amp;Install</String>
     <String Id="ResumeDlgBitmap" Overridable="yes"><!-- _locID_text="ResumeDlgBitmap" _locComment="ResumeDlgBitmap" -->WixUI_Bmp_Dialog</String>
     <String Id="ResumeDlgDescription" Overridable="yes"><!-- _locID_text="ResumeDlgDescription" _locComment="ResumeDlgDescription" -->The Setup Wizard will complete the installation of [ProductName] on your computer. Click Install to continue or Cancel to exit the Setup Wizard.</String>
