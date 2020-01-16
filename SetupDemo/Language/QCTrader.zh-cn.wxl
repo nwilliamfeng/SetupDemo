@@ -424,7 +424,7 @@
     <String Id="Error22" Overridable="yes"><!-- _locID_text="Error22" _locComment="Error22" -->Removing older versions of this application...</String>
     <String Id="Error23" Overridable="yes"><!-- _locID_text="Error23" _locComment="Error23" -->Preparing to remove older versions of this application...</String>
     <String Id="Error32" Overridable="yes"><!-- _locID_text="Error32" _locComment="Error32" -->{[ProductName] }Setup completed successfully.</String>
-    <String Id="Error33" Overridable="yes"><!-- _locID_text="Error33" _locComment="Error33" -->{[ProductName] }Setup failed.</String>
+    <String Id="Error33" Overridable="yes"><!-- _locID_text="Error33" _locComment="Error33" -->{[ProductName] }安装失败。</String>
     <String Id="Error1101" Overridable="yes"><!-- _locID_text="Error1101" _locComment="Error1101" -->Error reading from file: [2]. {{ System error [3].}}  Verify that the file exists and that you can access it.</String>
     <String Id="Error1301" Overridable="yes"><!-- _locID_text="Error1301" _locComment="Error1301" -->Cannot create the file '[2]'. A directory with this name already exists. Cancel the install and try installing to a different location.</String>
     <String Id="Error1302" Overridable="yes"><!-- _locID_text="Error1302" _locComment="Error1302" -->Please insert the disk: [2]</String>

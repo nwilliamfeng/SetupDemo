@@ -341,3 +341,9 @@ healthchecksdb
 /SetupDemo/source
 /SetupDemo/Packages/.net4.6.1.exe
 /SetupDemo/QCTrader.msi
+/SetupDemo/Net471-web.exe
+/SetupDemo/Net461-web.exe
+/SetupDemo/qctraderBootStrapper.exe
+/SetupDemo/wix/SetupDemo.g.wxs
+/SetupDemo/QCTrader.msi
+/SetupDemo/QCTrader.msi

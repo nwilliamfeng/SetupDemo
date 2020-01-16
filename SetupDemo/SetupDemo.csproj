@@ -63,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Language\QCTrader.zh-cn.wxl" />
     <None Include="Language\QCTrader.en-us.wxl" />
+    <None Include="Language\WixUI_zh-CN.wxl" />
     <None Include="Licenses\Licence.rtf" />
     <None Include="wix\$(ProjectName).g.wxs" />
   </ItemGroup>
@@ -73,7 +74,7 @@
   <ItemGroup>
     <Content Include="Images\uninstall.ico" />
     <Content Include="logo.ico" />
-    <Content Include="Packages\runtime461.exe" />
+    <Content Include="Packages\dotNetFx461_Full_x86_x64.exe" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -10,7 +10,7 @@
     <Package InstallerVersion="200" Compressed="yes" SummaryCodepage="gb2312" Languages="2052" />
     <Media Id="1" Cabinet="QCTrader.cab" EmbedCab="yes" />
 
-    <Condition Message="请先安装.net 4.6.1运行时"><![CDATA[ (NETFRAMEWORK45 >= "#461808") ]]></Condition>
+    <Condition Message="请先安装.net 4.6.1运行时"><![CDATA[ (NETFRAMEWORK45 >= "#394254") ]]></Condition>
 
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="ProgramFilesFolder" Name="ProgramFilesFolder">
@@ -253,7 +253,7 @@
 
     <Binary Id="ReadmeAfterInstalled_File" SourceFile="%this%.CA.dll" />
     <Binary Id="WixSharp_InitRuntime_Action_File" SourceFile="WixSharp.CA.dll" />
-    <Binary Id="WixSharp_UIText" SourceFile="language\qctrader.zh-cn.wxl" />
+    <Binary Id="WixSharp_UIText" SourceFile="language\WixUI_zh-CN.wxl" />
     <Binary Id="WixSharp_LicenceFile" SourceFile="licenses\licence.rtf" />
     <Binary Id="WixUI_Bmp_Dialog" SourceFile="QCTrader.dialog_bmp.png" />
     <Binary Id="WixUI_Bmp_Banner" SourceFile="QCTrader.dialog_banner.png" />
@@ -261,6 +261,8 @@
     <UIRef Id="WixUI_ErrorProgressText" />
 
     <Property Id="WixSharp_UI_INSTALLDIR" Value="INSTALLDIR" />
+    <Property Id="UAC_REVEALER_ENABLED" Value="true" />
+    <Property Id="UAC_WARNING" Value="安装程序需要用户账号控制（UAC）确认，请点击确认..." />
     <Property Id="WixSharp_InstallDialogs" Value="WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.WelcomeDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.LicenceDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.InstallDirDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ProgressDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ExitDialog" />
     <Property Id="WixSharp_ModifyDialogs" Value="WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.MaintenanceTypeDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ProgressDialog&#xA;WixSharp.UI, Version=1.14.2.0, Culture=neutral, PublicKeyToken=3775edd25acc43c2|WixSharp.UI.Forms.ExitDialog" />
     <Property Id="WixSharp_Load_Handlers" Value="WixSharpSetup, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|SetupDemo.Program|Msi_Load" />
