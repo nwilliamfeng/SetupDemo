@@ -29,19 +29,15 @@ namespace SetupDemo
                   
                 }
                 );
-            var themes = new[]
-{
-    new Payload(@"thm_zh-CN.wxl")
-    {
-        Name = @"language\WixUI_zh-CN.wxl"
-    },
-   
-};
-            bootstrapper.Application.Payloads.Combine(themes);
+
+
+            bootstrapper.Application.LocalizationFile = @"language\HyperlinkTheme.wxl";
+
 
             bootstrapper.Version = Tasks.GetVersionFromFile(productMsi); //will extract "product version"
             bootstrapper.UpgradeCode = new Guid("6f330b47-2577-43ad-9095-1861bb25889b");
             bootstrapper.Include(WixExtension.Util);
+            bootstrapper.Application.LicensePath = @"licenses\licence.rtf";
             bootstrapper.AddWixFragment("Wix/Bundle",
                                   new UtilRegistrySearch
                                   {
@@ -55,10 +51,8 @@ namespace SetupDemo
         }
 
         private static ExePackage Net461()
-        {
-        
-            string webInstaller =
-              @"http://download.microsoft.com/download/3/5/9/35980F81-60F4-4DE3-88FC-8F962B97253B/NDP461-KB3102438-Web.exe";
+        {        
+            string webInstaller = @"http://download.microsoft.com/download/3/5/9/35980F81-60F4-4DE3-88FC-8F962B97253B/NDP461-KB3102438-Web.exe";
             string net461Installer = "Net461-web.exe";
             using (var client = new WebClient())
             {
@@ -76,6 +70,7 @@ namespace SetupDemo
 
             return exe;
         }
+  
 
         private static string BuildMsi()
         {

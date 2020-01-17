@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
+
+
+<WixLocalization Culture="en-us" Language="1033" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">[WixBundleName] 安装</String>
+  <String Id="Title">[WixBundleName]</String>
+  <String Id="InstallHeader">欢迎</String>
+  <String Id="InstallMessage">Setup 将会安装 [WixBundleName] 到你的计算机上。 单击"安装"以继续，点击"设置"以选择安装目录或点击"关闭"退出。</String>
+  <String Id="InstallVersion">Version [WixBundleVersion]</String>
+  <String Id="ConfirmCancelMessage">您确定要取消吗?</String>
+  <String Id="ExecuteUpgradeRelatedBundleMessage">上一个版本</String>
+  <String Id="HelpHeader">安装帮助</String>
+  <String Id="HelpText">
+    /安装 | /修改 | /卸载 | /位置 [directory] - 安装, 修复, 卸载或者在目录中创建捆绑包的完整本地副本。 默认是安装。
+
+    /passive | /quiet -  displays minimal UI with no prompts or displays no UI and
+    no prompts. By default UI and all prompts are displayed.
+
+    /norestart   - suppress any attempts to restart. By default UI will prompt before restart.
+    /log log.txt - logs to a specific file. By default a log file is created in %TEMP%.</String>
+  <String Id="HelpCloseButton">&amp;关闭</String>
+  <String Id="InstallLicenseLinkText">[WixBundleName] &lt;a href="#"&gt;许可条款&lt;/a&gt;.</String>
+  <String Id="InstallAcceptCheckbox">我 &amp;同意许可条款和条件</String>
+  <String Id="InstallOptionsButton">&amp;选项</String>
+  <String Id="InstallInstallButton">&amp;安装</String>
+  <String Id="InstallCloseButton">&amp;关闭</String>
+  <String Id="OptionsHeader">安装选项</String>
+  <String Id="OptionsLocationLabel">安装位置:</String>
+  <String Id="OptionsBrowseButton">&amp;浏览</String>
+  <String Id="OptionsOkButton">&amp;确定</String>
+  <String Id="OptionsCancelButton">&amp;取消</String>
+  <String Id="ProgressHeader">安装进度</String>
+  <String Id="ProgressLabel">正在处理:</String>
+  <String Id="OverallProgressPackageText">正在初始化...</String>
+  <String Id="ProgressCancelButton">&amp;取消</String>
+  <String Id="ModifyHeader">修改</String>
+  <String Id="ModifyRepairButton">&amp;修复</String>
+  <String Id="ModifyUninstallButton">&amp;卸载</String>
+  <String Id="ModifyCloseButton">&amp;关闭</String>
+  <String Id="SuccessRepairHeader">修复成功</String>
+  <String Id="SuccessUninstallHeader">卸载成功</String>
+  <String Id="SuccessInstallHeader">安装成功</String> 
+  <String Id="SuccessHeader">安装成功</String>	
+  <String Id="SuccessLaunchButton">&amp;启动</String>
+  <String Id="SuccessRestartText">在使用软件之前，必须重新启动计算机。</String>
+  <String Id="SuccessRestartButton">&amp;重启电脑</String>
+  <String Id="SuccessCloseButton">&amp;关闭</String>
+  <String Id="FailureHeader">安装失败</String>
+  <String Id="FailureInstallHeader">安装失败</String>
+  <String Id="FailureUninstallHeader">卸载失败</String>
+  <String Id="FailureRepairHeader">修复失败</String> 
+  <String Id="FailureHyperlinkLogText">一个或多个问题导致安装失败。请修复这些问题，然后重试安装程序。 更多信息请查看 &lt;a href="#"&gt;日志文件&lt;/a&gt;。</String>
+  <String Id="FailureRestartText">必须重新启动计算机才能完成软件的回滚。</String>
+  <String Id="FailureRestartButton">&amp;重启电脑</String>
+  <String Id="FailureCloseButton">&amp;关闭</String>
+  <String Id="FilesInUseHeader">文件正被使用</String>
+  <String Id="FilesInUseLabel">下列应用程序正在使用需要更新的文件:</String>
+  <String Id="FilesInUseCloseRadioButton">Close the &amp;applications and attempt to restart them.</String>
+  <String Id="FilesInUseDontCloseRadioButton">&amp;请不要关闭软件，期间需要重启。</String>
+  <String Id="FilesInUseOkButton">&amp;确定</String>
+  <String Id="FilesInUseCancelButton">&amp;取消</String>
+  <String Id="ErrorFailNoActionReboot">No action was taken as a system reboot is required.</String>
+</WixLocalization>

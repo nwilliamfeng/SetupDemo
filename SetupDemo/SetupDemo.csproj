@@ -61,8 +61,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Language\HyperlinkTheme.wxl" />
     <None Include="Language\QCTrader.zh-cn.wxl" />
-    <None Include="Language\QCTrader.en-us.wxl" />
     <None Include="Language\WixUI_zh-CN.wxl" />
     <None Include="Licenses\Licence.rtf" />
     <None Include="wix\$(ProjectName).g.wxs" />
