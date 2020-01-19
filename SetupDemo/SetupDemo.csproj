@@ -75,6 +75,7 @@
     <Content Include="Images\uninstall.ico" />
     <Content Include="logo.ico" />
     <Content Include="Packages\dotNetFx461_Full_x86_x64.exe" />
+    <Content Include="Packages\Net461-web.exe" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
