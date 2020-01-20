@@ -22,7 +22,7 @@ namespace SetupDemo
             var projectName = "QCTrader";
             string productMsi = BuildMsi();
             var bootstrapper = new Bundle(projectName,
-               Net461Offline(),
+               Net461OfflineInstaller(),
                 new MsiPackage(productMsi)
                 { 
                     DisplayInternalUI = true,
@@ -50,7 +50,7 @@ namespace SetupDemo
             bootstrapper.Build("QctraderSetup.exe");
         }
 
-        private static ExePackage Net461()
+        private static ExePackage BuildNet461OnlineInstaller()
         {
             string webInstaller = @"http://download.microsoft.com/download/3/5/9/35980F81-60F4-4DE3-88FC-8F962B97253B/NDP461-KB3102438-Web.exe";
             string net461Installer = "Net461-web.exe";
@@ -71,7 +71,7 @@ namespace SetupDemo
             return exe;
         }
 
-        private static ExePackage Net461Offline()
+        private static ExePackage Net461OfflineInstaller()
         {
             
             string net461Installer = @"packages\dotNetFx461_Full_x86_x64.exe";
